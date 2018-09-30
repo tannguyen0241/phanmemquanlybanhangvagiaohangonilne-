@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DB39D5C4-2CB1-4E7A-9CD7-3CB63D2627CA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>QuanLiBanHangOnline</RootNamespace>
+    <AssemblyName>QuanLiBanHangOnline</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.BonusSkins.v18.1" />
+    <Reference Include="DevExpress.Data.v18.1" />
+    <Reference Include="DevExpress.Utils.v18.1" />
+    <Reference Include="DevExpress.Sparkline.v18.1.Core" />
+    <Reference Include="DevExpress.XtraEditors.v18.1" />
+    <Reference Include="DevExpress.XtraBars.v18.1" />
+    <Reference Include="DevExpress.XtraGrid.v18.1" />
+    <Reference Include="DevExpress.XtraLayout.v18.1" />
+    <Reference Include="DevExpress.XtraPrinting.v18.1" />
+    <Reference Include="DevExpress.Printing.v18.1.Core" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Quanlibanhang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Quanlibanhang.Designer.cs">
+      <DependentUpon>Quanlibanhang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Quanlibanhang.resx">
+      <DependentUpon>Quanlibanhang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="App.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_ic_store_mall_directory_48px_352146.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_17_Store_1871436.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_Food_C218_2427871.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_Frappe_1221685.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_Login_49249.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_exit_28363.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_change_password_63985.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_personal-information_47997.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_preferences-desktop-user_8806.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_Green_Backup_66589.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_preferences-contact-list_24249.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_Recover-arrow_1120626.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_protect green_10498.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_Shield_653272.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sale-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_error_1646012.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_8_300974.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_Business_coins_finance_banking_bank_marketing_1886510.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_Print_1493286.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_logo_brand_brands_logos_word_2993664.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_logo_brand_brands_logos_excel_2993694.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_12.File_290138.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_Error_381599.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_telephone-1_2252420.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_icon-29-information_315150.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logistics-delivery-truck-in-movement.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\customer-service.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pictograma.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_hot-dogs-truck-food-delivery-street_3558109.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\order-food.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

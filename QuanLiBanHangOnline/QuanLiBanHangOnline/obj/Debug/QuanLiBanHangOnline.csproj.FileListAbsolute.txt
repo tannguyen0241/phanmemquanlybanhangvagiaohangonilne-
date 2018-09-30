@@ -1,0 +1,11 @@
+D:\BAITAPOLOP\WINFORM\QuanLiBanHangOnline\QuanLiBanHangOnline\bin\Debug\QuanLiBanHangOnline.exe
+D:\BAITAPOLOP\WINFORM\QuanLiBanHangOnline\QuanLiBanHangOnline\bin\Debug\QuanLiBanHangOnline.pdb
+D:\BAITAPOLOP\WINFORM\QuanLiBanHangOnline\QuanLiBanHangOnline\obj\Debug\QuanLiBanHangOnline.Properties.Resources.resources
+D:\BAITAPOLOP\WINFORM\QuanLiBanHangOnline\QuanLiBanHangOnline\obj\Debug\QuanLiBanHangOnline.csproj.GenerateResource.cache
+D:\BAITAPOLOP\WINFORM\QuanLiBanHangOnline\QuanLiBanHangOnline\obj\Debug\QuanLiBanHangOnline.exe.licenses
+D:\BAITAPOLOP\WINFORM\QuanLiBanHangOnline\QuanLiBanHangOnline\obj\Debug\QuanLiBanHangOnline.csproj.CoreCompileInputs.cache
+D:\BAITAPOLOP\WINFORM\QuanLiBanHangOnline\QuanLiBanHangOnline\obj\Debug\QuanLiBanHangOnline.exe
+D:\BAITAPOLOP\WINFORM\QuanLiBanHangOnline\QuanLiBanHangOnline\obj\Debug\QuanLiBanHangOnline.pdb
+D:\BAITAPOLOP\WINFORM\QuanLiBanHangOnline\QuanLiBanHangOnline\obj\Debug\QuanLiBanHangOnline.csprojAssemblyReference.cache
+D:\BAITAPOLOP\WINFORM\QuanLiBanHangOnline\QuanLiBanHangOnline\bin\Debug\QuanLiBanHangOnline.exe.config
+D:\BAITAPOLOP\WINFORM\QuanLiBanHangOnline\QuanLiBanHangOnline\obj\Debug\QuanLiBanHangOnline.Quanlibanhang.resources
