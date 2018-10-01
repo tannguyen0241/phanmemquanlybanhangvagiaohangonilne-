@@ -35,6 +35,8 @@
   <ItemGroup>
     <Reference Include="DevExpress.BonusSkins.v18.1" />
     <Reference Include="DevExpress.Data.v18.1" />
+    <Reference Include="DevExpress.ExpressApp.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Persistent.Base.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Utils.v18.1" />
     <Reference Include="DevExpress.Sparkline.v18.1.Core" />
     <Reference Include="DevExpress.XtraEditors.v18.1" />
@@ -43,6 +45,8 @@
     <Reference Include="DevExpress.XtraLayout.v18.1" />
     <Reference Include="DevExpress.XtraPrinting.v18.1" />
     <Reference Include="DevExpress.Printing.v18.1.Core" />
+    <Reference Include="DevExpress.XtraReports.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraVerticalGrid.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -55,6 +59,78 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GUI\UC_Capquyen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\UC_Capquyen.Designer.cs">
+      <DependentUpon>UC_Capquyen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\UC_Cuahang.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\UC_Cuahang.Designer.cs">
+      <DependentUpon>UC_Cuahang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\UC_DangKy.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\UC_DangKy.designer.cs">
+      <DependentUpon>UC_DangKy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\UC_DangNhap.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\UC_DangNhap.designer.cs">
+      <DependentUpon>UC_DangNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\UC_Doan.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\UC_Doan.Designer.cs">
+      <DependentUpon>UC_Doan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\UC_Douong.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\UC_Douong.Designer.cs">
+      <DependentUpon>UC_Douong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\UC_Giaohang.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\UC_Giaohang.Designer.cs">
+      <DependentUpon>UC_Giaohang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\UC_Khachhang.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\UC_Khachhang.Designer.cs">
+      <DependentUpon>UC_Khachhang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\UC_PhieuDathang.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\UC_PhieuDathang.designer.cs">
+      <DependentUpon>UC_PhieuDathang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\UC_TC_Doan_Douong.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\UC_TC_Doan_Douong.Designer.cs">
+      <DependentUpon>UC_TC_Doan_Douong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\UC_TTNhanVien.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\UC_TTNhanVien.designer.cs">
+      <DependentUpon>UC_TTNhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\UC_TTTaikhoan.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\UC_TTTaikhoan.Designer.cs">
+      <DependentUpon>UC_TTTaikhoan.cs</DependentUpon>
+    </Compile>
     <Compile Include="Quanlibanhang.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -63,6 +139,42 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="GUI\UC_Capquyen.resx">
+      <DependentUpon>UC_Capquyen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UC_Cuahang.resx">
+      <DependentUpon>UC_Cuahang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UC_DangKy.resx">
+      <DependentUpon>UC_DangKy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UC_DangNhap.resx">
+      <DependentUpon>UC_DangNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UC_Doan.resx">
+      <DependentUpon>UC_Doan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UC_Douong.resx">
+      <DependentUpon>UC_Douong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UC_Giaohang.resx">
+      <DependentUpon>UC_Giaohang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UC_Khachhang.resx">
+      <DependentUpon>UC_Khachhang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UC_PhieuDathang.resx">
+      <DependentUpon>UC_PhieuDathang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UC_TC_Doan_Douong.resx">
+      <DependentUpon>UC_TC_Doan_Douong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UC_TTNhanVien.resx">
+      <DependentUpon>UC_TTNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UC_TTTaikhoan.resx">
+      <DependentUpon>UC_TTTaikhoan.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Quanlibanhang.resx">
       <DependentUpon>Quanlibanhang.cs</DependentUpon>
     </EmbeddedResource>
@@ -181,6 +293,7 @@
   <ItemGroup>
     <None Include="Resources\order-food.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.
